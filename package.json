@@ -2,14 +2,14 @@
   "name": "dcs-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "tmdfldml",
+  "license": "MIT",
+  "description": "The Discord bot of the DCS Holdum",
   "scripts": {
     "start": "node build/init.js",
     "build": "babel src -d build",
     "dev": "nodemon"
   },
-  "author": "",
-  "license": "MIT",
-  "description": "",
   "dependencies": {
     "discord.js": "^14.0.3"
   },
